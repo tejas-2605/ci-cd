@@ -4,7 +4,7 @@
     - name: install httpd
       package: name=httpd state=installed
     - name: configure
-      shell: "echo Tejas has done the changes to the Ansible file!! !!! > /var/www/html/index.html"
+      shell: "echo Tejas has done the changes to the Ansible file!! Blah Blah Blue Blue :D !!! > /var/www/html/index.html"
     - name: start service
       service: name=httpd state=started
     - name: add user
